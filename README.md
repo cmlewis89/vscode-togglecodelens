@@ -1,15 +1,18 @@
 # vscode-togglecodelens
 
 Simple extension to allow the toggle of the `editor.codeLens` setting inside `settings.json` for VS Code.
+
 ![alt](images/settings.png)
 
 ## Features
 
-This extension toggles `editor.codeLens` item in `settings.json` between `true` and `false`.
+This extension toggles `editor.codeLens` item in `settings.json` between `true` and `false`. This allows you to Enable and Disable CodeLens with ease while writing code without having to open your `settings.json`.
+
 ![alt](images/context.gif)
 
 > Tip: Keybind `extension.toggleCodelens` for easy access.
-![alt](images/keybinding.png)
+> 
+>![alt](images/keybinding.png)
 
 ## Installation
 
