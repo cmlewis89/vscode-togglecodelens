@@ -12,8 +12,9 @@ This extension toggles `editor.codeLens` item in `settings.json` between `true` 
 
 ## Installation
 
-* Press F1 in VSCode, type `ext install` and then look for `togglecodelens`.
-* Or find it on the Visual Studio Market Place: https://marketplace.visualstudio.com/
+* Press (⌘+P) and use the following command `ext install vscode-togglecodelens`
+* OR... Run `code --install-extension cmlewis89.vscode-togglecodelens` from terminal
+* OR... Find it on the Visual Studio Market Place: https://marketplace.visualstudio.com/items?itemName=cmlewis89.vscode-togglecodelens
 
 ## Notes
 

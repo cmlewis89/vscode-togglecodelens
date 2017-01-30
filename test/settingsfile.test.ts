@@ -12,22 +12,23 @@ suite("setting file should", () => {
     
     test("be set as false if no value in user settings", () => {
        var originalSettingsFile = JSON.stringify({});
-       
        var newSettingsFile = settingsFile.SetValue(settingValue, originalSettingsFile);
-       
        var expected = CreateSettingsString({ "editor.codeLens": false});
-       assert.equal(expected, newSettingsFile);
+       assert.equal(newSettingsFile, expected);
     });
     
-    test("have comments removed", () => {
-       var originalSettingsFile = JSON.stringify({});
-       originalSettingsFile = "//comments are supported in vscode settings files" + os.EOL + originalSettingsFile;
-       
-       
+    test("be set to true if value was false", () => {
+       var originalSettingsFile = CreateSettingsString({ "editor.codeLens": false});
        var newSettingsFile = settingsFile.SetValue(settingValue, originalSettingsFile);
-       
        var expected = CreateSettingsString({ "editor.codeLens": true});
-       assert.equal(expected, newSettingsFile);
+       assert.equal(newSettingsFile, expected);
+    });
+
+    test("be set to false if value was true", () => {
+       var originalSettingsFile = CreateSettingsString({ "editor.codeLens": true});
+       var newSettingsFile = settingsFile.SetValue(settingValue, originalSettingsFile);
+       var expected = CreateSettingsString({ "editor.codeLens": false});
+       assert.equal(newSettingsFile, expected);
     });
 });
 
