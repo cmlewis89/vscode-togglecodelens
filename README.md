@@ -10,6 +10,8 @@ This extension toggles `editor.codeLens` item in `settings.json` between `true` 
 
 ![alt](images/context.gif)
 
+
+>
 > Tip: Keybind `extension.toggleCodelens` for easy access.
 > 
 >![alt](images/keybinding.png)
