@@ -2,7 +2,7 @@
     "name": "vscode-togglecodelens",
     "displayName": "Toggle CodeLens",
     "description": "Toggle editor.codeLens item in settings.json",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/cmlewis89/vscode-togglecodelens/issues"

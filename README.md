@@ -1,14 +1,15 @@
 # vscode-togglecodelens
 
 Simple extension to allow the toggle of the `editor.codeLens` setting inside `settings.json` for VS Code.
+![alt](images/settings.png)
 
 ## Features
 
 This extension toggles `editor.codeLens` item in `settings.json` between `true` and `false`.
-
-* The setting status of `editor.codeLens` is displayed in the status bar.
-
 ![alt](images/context.gif)
+
+> Tip: Keybind `extension.toggleCodelens` for easy access.
+![alt](images/keybinding.png)
 
 ## Installation
 
@@ -26,14 +27,12 @@ Consider making a backup of settings.json.
 
 ## Thanks
 
-This extension is basically a fork of jsturtevant's vscode-softwrap: https://github.com/jsturtevant/vscode-softwrap
+This extension is basically a fork of [jsturtevant](https://github.com/jsturtevant)'s [vscode-softwrap](https://github.com/jsturtevant/vscode-softwrap).
 
 ## Changelog
 
-* 1.0.0 - 2017/01/30 
-  * V1
-
-    ![alt](images/context.gif)
+* 1.0.3 - 2017/01/30 
+  * Inital Release
     
 ## License
 
