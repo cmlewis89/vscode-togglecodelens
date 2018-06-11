@@ -1,5 +1,7 @@
 # vscode-togglecodelens
 
+> NOTE: This extension is no longer maintained. Checkout [Setting Toggle](https://marketplace.visualstudio.com/items?itemName=Ho-Wan.setting-toggle) for similar functionality.
+
 Simple extension to allow the toggle of the `editor.codeLens` setting inside `settings.json` for VS Code.
 
 ![alt](images/settings.png)
